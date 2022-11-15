@@ -1,4 +1,6 @@
 <?php
+namespace Guszandy\CabrilloDecoder;
+
 class CabrilloDecoder {
     private $file = null;
     private $QSO_data_head = array();
@@ -43,4 +45,3 @@ class CabrilloDecoder {
     }
     
 }
-?>

@@ -1,5 +1,5 @@
 <?php
-include("CabrilloDecoder.php");
+require_once 'vendor/autoload.php';
 
 $QSO_data_head = [
     "Freq",
@@ -16,7 +16,7 @@ $QSO_data_head = [
 
 $file = fopen("example-cab.cab", "r");
 
-$cd = new CabrilloDecoder($file, $QSO_data_head);
+$cd = new \Guszandy\CabrilloDecode\CabrilloDecoder($file, $QSO_data_head);
 
 $decoded_data = $cd->decode();
 

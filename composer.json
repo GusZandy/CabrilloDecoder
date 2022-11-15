@@ -1,0 +1,17 @@
+{
+    "name": "guszandy/cabrillo_decoder",
+    "description": "Decode Cabrillo file to array PHP.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Guszandy\\CabrilloDecoder\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "zandy.yudha.p",
+            "email": "zandy.yudha.p@gmail.com"
+        }
+    ],
+    "require": {}
+}
