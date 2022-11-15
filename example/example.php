@@ -16,7 +16,7 @@ $QSO_data_head = [
 
 $file = fopen("example-cab.cab", "r");
 
-$cd = new \Guszandy\CabrilloDecode\CabrilloDecoder($file, $QSO_data_head);
+$cd = new \Guszandy\CabrilloDecoder\CabrilloDecoder($file, $QSO_data_head);
 
 $decoded_data = $cd->decode();
 
