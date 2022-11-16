@@ -2,9 +2,9 @@
 Decode File Cabrillo to array PHP.
 
 # Installation
-For now, we still use dev-master branch to install this package like this:
+To install this package, you have to write like this:
 ```php
-composer require guszandy/cabrillo-decoder dev-master
+composer require guszandy/cabrillo-decoder
 ```
 # Add an example file
 Make sure that you have created a PHP-extension file and example cabrillo file (in this example folder) for this example and write like this:
