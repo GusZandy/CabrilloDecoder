@@ -6,10 +6,25 @@ class CabrilloDecoder {
     private $QSO_data_head = array();
     private $decoded_data = array();
 
-    function __construct($file, $head) {
+    function __construct($file, $head = null) {
+        if ($head != null) {
+            $this->QSO_data_head = $head;
+        } else {
+            $this->QSO_data_head = $this->QSO_data_head = [
+                "Freq",
+                "Mode",
+                "Date",
+                "Time",
+                "MyCall",
+                "RSTSent",
+                "SerialSent",
+                "Call",
+                "RSTReceived",
+                "SerialReceived"
+            ];
+        }
         $this->file = $file;
-        $this->QSO_data_head = $head;
-      }
+    }
 
     private function decode_QSO_cabrillo($data_head, $data) {
         $temp = [];
