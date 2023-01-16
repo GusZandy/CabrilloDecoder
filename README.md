@@ -1,5 +1,5 @@
 # CabrilloDecoder
-Decode File Cabrillo to array PHP.
+Decode File Cabrillo to array PHP. Cabrillo decoder for python in [here](https://github.com/GusZandy/CabrilloDecoderPython "Cabrillo Decoder for Python") and for javascript in here [here](https://github.com/GusZandy/cabrillo_decoder_javascript "Cabrillo Decoder for Javascript").
 
 # Installation
 To install this package, you have to write like this:
